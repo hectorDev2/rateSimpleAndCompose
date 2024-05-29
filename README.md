@@ -7,7 +7,7 @@
 ### BARAZORDA CUELLAR HECTOR
 ### HIGUERA HALANOCCA BRAYAN
 ### CASAFRANCA BENAVIDES ELVIS
-### CATUNTA ANGEL ISMAEL
+### ALVAREZ CATUNTA ANGEL ISMAEL
 
 
 Esta es una aplicación web que calcula el interés compuesto y simple. Está construida con Next.js y utiliza Chart.js para mostrar gráficos interactivos. La aplicación está desplegada en Vercel para un acceso fácil y rápido.
