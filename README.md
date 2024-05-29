@@ -28,7 +28,7 @@ Esta es una aplicación web que calcula el interés compuesto y simple. Está co
 
 ## Demo
 
-Puedes ver una demostración en vivo de la aplicación [aquí](https://tu-proyecto.vercel.app).
+Puedes ver una demostración en vivo de la aplicación [aquí](https://rate-simple-and-compose.vercel.app/).
 o puedes escanear el siguiente qr
 
 ![Untitled (1)](https://github.com/hectorDev2/rateSimpleAndCompose/assets/126804661/a3921b90-03db-45b4-8c46-f1637d17a051)
