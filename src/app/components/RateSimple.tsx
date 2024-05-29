@@ -28,7 +28,7 @@ export default function RateSimple() {
             </label>
             <input
               value={capital}
-              onChange={(e) => setCapital(Number(e.target.value))}
+              onChange={(e) => setCapital(Number(e.target.valueAsNumber))}
               className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
               id="capital"
               name="capital"
@@ -45,7 +45,7 @@ export default function RateSimple() {
             </label>
             <input
               value={rate}
-              onChange={(e) => setRate(Number(e.target.value))}
+              onChange={(e) => setRate(Number(e.target.valueAsNumber))}
               className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
               id="rate"
               name="rate"
@@ -62,7 +62,7 @@ export default function RateSimple() {
             </label>
             <input
               value={time}
-              onChange={(e) => setTime(Number(e.target.value))}
+              onChange={(e) => setTime(Number(e.target.valueAsNumber))}
               className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
               id="time"
               name="time"

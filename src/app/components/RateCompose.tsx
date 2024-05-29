@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import ChartRateCompose from "./ChartRateCompose";
+import ChartComparative from "./ChartComparative";
 
 export default function RateCompose() {
   const [rate, setRate] = useState(10);
@@ -28,7 +29,7 @@ export default function RateCompose() {
             </label>
             <input
               value={capital}
-              onChange={(e) => setCapital(Number(e.target.value))}
+              onChange={(e) => setCapital(Number(e.target.valueAsNumber))}
               className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
               id="capital"
               name="capital"
@@ -45,7 +46,7 @@ export default function RateCompose() {
             </label>
             <input
               value={rate}
-              onChange={(e) => setRate(Number(e.target.value))}
+              onChange={(e) => setRate(Number(e.target.valueAsNumber))}
               className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
               id="rate"
               name="rate"
@@ -62,7 +63,7 @@ export default function RateCompose() {
             </label>
             <input
               value={time}
-              onChange={(e) => setTime(Number(e.target.value))}
+              onChange={(e) => setTime(Number(e.target.valueAsNumber))}
               className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
               id="time"
               name="time"
@@ -78,10 +79,12 @@ export default function RateCompose() {
           </p>
           <div className="w-full max-w-md mx-auto">
             <ChartRateCompose capital={capital} rate={rate} time={time} />
-          </div>
-          <div className="flex">
-            <label htmlFor="rate">Valor futuro:</label>
-            <h2>{Math.round(total)}</h2>
+            <div className="flex">
+              <label htmlFor="rate">Valor futuro:</label>
+              <h2>{Math.round(total)}</h2>
+            </div>
+            <h2 className="mt-10">Comparamos con el interes Simple</h2>
+            <ChartComparative capital={capital} rate={rate} time={time} />
           </div>
         </div>
       </div>
