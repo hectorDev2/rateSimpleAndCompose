@@ -76,6 +76,12 @@ La aplicación está desplegada en Vercel. Para desplegar tu propia versión, si
 
 Para más detalles, consulta la [documentación de Vercel](https://vercel.com/docs).
 
+## Que cosas agregaria para mejorar el proyecto?
+
+- Calculadora de préstamos: Agrega una función que permita a los usuarios calcular cuotas de préstamos basadas en el capital, la tasa de interés y el tiempo.
+- Comparación de inversiones: Permite a los usuarios comparar diferentes inversiones (simple vs. compuesto) para tomar decisiones informadas.
+- Historial de transacciones: Implementa un registro de transacciones para que los usuarios puedan rastrear sus operaciones financieras.
+    
 ## Contribuciones
 
 Las contribuciones son bienvenidas. Si tienes alguna mejora, sugerencia o encuentras algún error, por favor abre un issue o envía un pull request.
