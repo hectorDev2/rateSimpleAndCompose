@@ -97,17 +97,6 @@ export default function AmericanComponent() {
         </form>
         <div className="bg-gray-100 dark:bg-gray-800 rounded-md p-4 space-y-2">
           <p className="text-gray-700 dark:text-gray-300">
-            el pago mensual es:
-            <span className="font-bold">
-              S./
-              {Math.round(
-                ((capital * (rate / 100)) / time + Number.EPSILON) * 100
-              ) /
-                100 +
-                capital / time}
-            </span>
-          </p>
-          <p className="text-gray-700 dark:text-gray-300">
             interes mensual es:
             <span className="font-bold">
               S./

@@ -10,7 +10,7 @@ export default function Home() {
         Interes Simple y compuesto
       </h2>
 
-      <main className="flex min-h-screen  flex-wrap  justify-center gap-9 p-10">
+      <main className="flex min-h-screen  flex-wrap  justify-center gap-9 p-20">
         <RateSimple />
         <RateCompose />
       </main>
