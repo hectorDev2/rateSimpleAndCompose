@@ -1,19 +1,9 @@
-import Header from "./components/Header";
-import RateCompose from "./components/RateCompose";
-import RateSimple from "./components/RateSimple";
+import Menu from "./screems/Menu";
 
 export default function Home() {
   return (
     <div>
-      <Header />
-      <h2 className="text-center text-2xl font-bold">
-        Interes Simple y compuesto
-      </h2>
-
-      <main className="flex min-h-screen  flex-wrap  justify-center gap-9 p-20">
-        <RateSimple />
-        <RateCompose />
-      </main>
+      <Menu />
     </div>
   );
 }

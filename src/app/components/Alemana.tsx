@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import ChartFrances from "./ChartFrances";
 import ChartAlemana from "./ChartAlemana";
+import AmortizationTableAlemana from "./AmortizationTableAlemana";
 
 function PMT(
   tasaInteresAnual: number,
@@ -122,6 +123,11 @@ export default function GermanComponent() {
               time={time}
             />
           </div>
+          <AmortizationTableAlemana
+            principal={capital}
+            annualRate={rate}
+            months={time}
+          />
           <h2 className="text-black">Amortizacion alemana:{capital / time}</h2>
         </div>
       </div>

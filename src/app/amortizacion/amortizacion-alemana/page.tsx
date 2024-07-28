@@ -1,11 +1,10 @@
 import Header from "@/app/components/Header";
-import ChartAlemana from "../components/ChartAlemana";
-import GermanComponent from "../components/Alemana";
+import ChartAlemana from "../../components/ChartAlemana";
+import GermanComponent from "../../components/Alemana";
 
 export default function AmortizationGerman() {
   return (
     <div>
-      <Header />
       <h2 className="my-10 text-center text-2xl font-bold">
         Amortizacion Alemana
       </h2>

@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import ChartAlemana from "./ChartAlemana";
 import ChartAmerican from "./ChartAmerican";
-import AmortizationAmerican from "../amortizacion-americana/page";
+import AmortizationAmerican from "../amortizacion/amortizacion-americana/page";
 import AmortizationTable from "./AmortizationTable";
 
 function PMT(
