@@ -40,7 +40,7 @@ Sigue estos pasos para instalar y ejecutar el proyecto localmente:
 
 1. Clona el repositorio:
     ```bash
-    git clone https://github.com/tu-usuario/tu-repositorio.git
+    git clone [https://github.com/tu-usuario/tu-repositorio.git](https://github.com/hectorDev2/rateSimpleAndCompose/]
     ```
     
 2. Navega al directorio del proyecto:
@@ -95,3 +95,4 @@ Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE)
 ## Contacto
 
 Si tienes alguna pregunta o comentario, no dudes en contactar conmigo a través de 145003@unsaac.edu.pe
+proyecto realizado para el curso de Ingenieria Economia 
