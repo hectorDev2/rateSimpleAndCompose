@@ -35,7 +35,7 @@ export default function Header({
           </div>
           <ul className="flex  items-center gap-x-8">
             {routes.map((route) => (
-              <li className="hover:underline">
+              <li key={route.name} className="hover:underline">
                 <Link href={route.href}>{route.name}</Link>
               </li>
             ))}
