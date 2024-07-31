@@ -43,7 +43,14 @@ export default function AnualidadAnticipada() {
   useEffect(() => {
     calcularValorFuturo();
     calAnualidadAnticipada();
-  }, [initialAmount, interestRate, years, valorFuturo]);
+  }, [
+    initialAmount,
+    interestRate,
+    years,
+    valorFuturo,
+    calAnualidadAnticipada,
+    calcularValorFuturo,
+  ]);
 
   return (
     <Card className="w-full max-w-md mx-auto">
