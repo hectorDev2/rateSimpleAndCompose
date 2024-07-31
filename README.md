@@ -1,4 +1,7 @@
 # UNIVERSIDAD SAN ANTONIO ABAD DEL CUSCO
+
+![image](https://github.com/user-attachments/assets/fc8a8021-0f10-48c1-a014-08d82346edbc)
+
 # Curso: Ingeniería Informática
 
 # Aplicación: Calculadora de Interés Compuesto, Simple, Gradientes, Depreciación y Anualidades
