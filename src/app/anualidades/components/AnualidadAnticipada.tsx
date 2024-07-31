@@ -17,7 +17,7 @@ export default function AnualidadAnticipada() {
   const [valorFuturo, setValorFuturo] = useState<number>(0);
   const [valorAnualidadAnticipada, setValorAnualidadAnticipada] =
     useState<number>(0);
-  const [initialAmount, setInitialAmount] = useState(10000000);
+  const [initialAmount, setInitialAmount] = useState(10000);
   const [interestRate, setInterestRate] = useState(0.02);
   const [years, setYears] = useState(36);
 
@@ -48,7 +48,7 @@ export default function AnualidadAnticipada() {
   return (
     <Card className="w-full max-w-md mx-auto">
       <CardHeader>
-        <CardTitle>Valor Futuro Anualidad Vencida</CardTitle>
+        <CardTitle>Valor Futuro Anualidad Anticipada</CardTitle>
         <CardDescription>
           Calcula el valor de la anualidad anticipada
         </CardDescription>

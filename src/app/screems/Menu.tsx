@@ -1,15 +1,3 @@
-"use client";
-/**
- * v0 by Vercel.
- * @see https://v0.dev/t/0MxzjdFTVo7
- * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
- */
-import {
-  DropdownMenu,
-  DropdownMenuTrigger,
-  DropdownMenuContent,
-  DropdownMenuItem,
-} from "@/components/ui/dropdown-menu";
 import Link from "next/link";
 
 export default function Component() {
@@ -28,6 +16,20 @@ export default function Component() {
             <Link href="/anualidades">
               <button className="flex items-center justify-between w-full rounded-md bg-card-foreground text-card px-4 py-2 hover:bg-accent hover:text-accent-foreground focus:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none">
                 Anualidades
+              </button>
+            </Link>
+          </li>
+          <li>
+            <Link href="/gradientes">
+              <button className="flex items-center justify-between w-full rounded-md bg-card-foreground text-card px-4 py-2 hover:bg-accent hover:text-accent-foreground focus:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none">
+                gradientes
+              </button>
+            </Link>
+          </li>
+          <li>
+            <Link href="/depreciacion">
+              <button className="flex items-center justify-between w-full rounded-md bg-card-foreground text-card px-4 py-2 hover:bg-accent hover:text-accent-foreground focus:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none">
+                depreciacion
               </button>
             </Link>
           </li>

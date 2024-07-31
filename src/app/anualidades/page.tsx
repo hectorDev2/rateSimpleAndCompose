@@ -1,5 +1,5 @@
 import Header from "../components/Header";
-import AnualidadAnticipada from "./components/AnualidadAnticipada";
+import AnualidadVencida from "./components/AnualidadVencida";
 
 export default function Anualidades() {
   return (
@@ -18,7 +18,7 @@ export default function Anualidades() {
         ]}
       />
       <div className="flex flex-col items-center justify-center min-h-screen bg-background">
-        <AnualidadAnticipada />
+        <AnualidadVencida />
       </div>
     </>
   );
